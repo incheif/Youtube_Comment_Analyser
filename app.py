@@ -67,7 +67,7 @@ def preprocess_comments(new_data):
     new_data['Comment'] = new_data['Comment'].apply(lambda x: ' '.join([lemmatizer.lemmatize(word) for word in x.split()]))
     return new_data
 
-   
+
 
 @app.route('/analyze', methods=['POST'])
 def analyze_sentiment():
@@ -77,7 +77,7 @@ def analyze_sentiment():
     if not video_id:
         return jsonify({'error': 'Invalid YouTube URL'}), 400
 
-    api_key = "AIzaSyA5lZYI3wMZh3NigNipLtA3ZXuuHo7uWjU"  # Replace with your actual API key
+    api_key = "Replace with your actual API key"
     comments = get_youtube_comments(video_id, api_key, max_results=500)
 
     df = pd.DataFrame(comments, columns=['Comment'])
