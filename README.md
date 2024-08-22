@@ -1,7 +1,3 @@
-Here's a README template for your project with sections for screenshots:
-
----
-
 # YouTube Comment Sentiment Analysis
 
 This project is a Flask-based web application that allows users to analyze the sentiment of comments from a YouTube video. By providing the URL of a YouTube video, the application will extract comments, preprocess them, and use a trained machine learning model to determine the sentiment of the comments. The results include the average sentiment, as well as the number of positive and negative comments.
@@ -95,7 +91,3 @@ Feel free to submit issues or pull requests if you have suggestions for improvin
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-You can replace the `screenshots/homepage.png` and `screenshots/analysis_result.png` with the actual file paths to your screenshots.
