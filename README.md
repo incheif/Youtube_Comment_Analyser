@@ -56,12 +56,7 @@ This project is a Flask-based web application that allows users to analyze the s
 3. Click on "Analyze" to start the sentiment analysis.
 4. The results will be displayed on the page, including the average sentiment score and counts of positive and negative comments.
 
-## Screenshots
-
-1. **Home Page:**
-   ![Home Page](screenshots/homepage.png)
-
-2. **Sentiment Analysis Result:**
+## Analysis Result
    ![Analysis Result](screenshots/analysis_result.png)
 
 ## How It Works
